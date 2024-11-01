@@ -1,0 +1,6 @@
+streamlit
+pandas
+cryptography
+altair==4.0.1 
+scikit-learn
+numpy
