@@ -32,7 +32,7 @@ if key:
     # Input fields for product information
     product_name = st.text_input("Product Name")
     quantity = st.number_input("Quantity", min_value=1)
-    price = st.number_input("Price", min_value=1$)
+    price = st.number_input("Price", min_value=1)
 
     # Button to save the data
     if st.button("Save"):
