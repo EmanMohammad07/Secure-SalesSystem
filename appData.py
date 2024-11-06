@@ -25,7 +25,7 @@ key = load_key()
 if key:
     cipher_suite = Fernet(key)
 
-    st.title("Sales Data Entry and Encryption App")
+    st.title("Secure Sales System App")
 
     # Input fields for product information
     product_name = st.text_input("Product Name")
